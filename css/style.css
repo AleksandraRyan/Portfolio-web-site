@@ -188,6 +188,31 @@ button:hover {
   background-color: #9cf593;
 }
 /* Media Queries */
+
+@media (max-width: 2000px) {
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1440px) {
+  .main-nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 769px) {
   .about {
     display: grid;
@@ -204,24 +229,5 @@ button:hover {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 1440px) {
-  .main-nav ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .boxes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 2000px) {
-  .about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
 }
