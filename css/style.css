@@ -188,7 +188,7 @@ button:hover {
   background-color: #9cf593;
 }
 /* Media Queries */
-@media (max-width: 700px) {
+@media (max-width: 769px) {
   .about {
     display: grid;
     grid-template-columns: 1fr;
@@ -196,6 +196,8 @@ button:hover {
 
   .boxes {
     background-image: linear-gradient(to left, #b3ffab 0%, #12fff7 100%);
+    display: grid;
+    grid-template-columns: 1fr;
     box-shadow: 15px -15px 20px #12fff7;
   }
 
