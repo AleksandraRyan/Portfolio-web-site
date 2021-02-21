@@ -212,4 +212,9 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
