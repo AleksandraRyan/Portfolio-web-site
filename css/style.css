@@ -188,7 +188,7 @@ button:hover {
   background-color: #9cf593;
 }
 /* Media Queries */
-@media (max-width: 769px) {
+@media (max-width: 800px) {
   .about {
     display: grid;
     grid-template-columns: 1fr;
